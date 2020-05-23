@@ -10,7 +10,7 @@
 #endif
 
 #if USE_ENGLISH_ASCIIMAP
-#error IMPLEMENT - PORT FROM QMK
+#include "keyboard/asciimap_uk.h"
 #endif
 
 uint8_t kb_buf[KB_BUF_SIZE] = {1, 0, 0, 0, 0};
